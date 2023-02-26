@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=320, initial-scale=1">
+    <meta charset="utf-8">
+    <style>
+      .contact-section {
+        background: #FDF5E6;
+        padding: 20px;
+      }
+      
+      .contact-section h1 {
+        position: relative;
+        display: inline-block;
+        left: 43%;
+        top : -50px;
+        font-size: 40px;
+      }
+        
+   .contact-box {
+     width: 100%;
+     background-color: #fdf5e6;
+     box-shadow; 0 0 20px 0  #000;
+     bottom: -1700px;
+     left: -1%;
+     transform: translate (-50%,-50%);
+     position: absolute;
+   }
+   
+   form {
+     margin: 35px;
+   }
+        
+   .contact-text {
+     position: relative;
+     display: inline-block;
+     left: 25%;
+     color: green;
+   }
+        
+   .your-name {
+     width: 100%;
+     height: 30px;
+   }
+   
+   .phone-number {
+     width: 100%;
+     height: 30px;
+   }
+   
+   .email-adderss {
+     width: 100%;
+     height: 30px;
+   }
+   
+   .textarea-field {
+     height: 150px;
+     width: 100%;
+     padding-top: 10px;
+     box-shadow: gray 0 0 10px;
+   }
+   
+   .btn {
+     position: relative;
+     display: inline-block;
+     border-radius: 970px;
+     color: #fff;
+     margin-top: 18px;
+     padding: 10px;
+     background-color: #008000;
+     font-size: 15px;
+     border: none;
+     cursor: pointer;
+     width: 100%;
+   }
+   
+   .btn:hover {
+     background: #90EE90;         
+   }
+  
+    </style>
+    <!--<link rel="stylesheet" href="style.css"/>-->
+    <!--<script defer src="script.js"></script>-->
+  </head>
+  <body> 
+    
+<section class="contact-section">
+          <h1 id="contactus" class="contact-header">
+            Contact
+          </h1>
+   
+          <p class="contact-text">
+            Call +1-321-330-6483 for more imformation<br>or email - contact@mintroofingllc.com
+          </p>
+          
+  <form target="_blank" action="https://formsubmit.co/el/pinupa" method="POST">
+  <input type="hidden" name="_next" value="https://yourdomain.co/thankyou.html">
+  <input type="hidden" name="_subject" value="New submission from the website">
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+          <input type="text" name="name" class="input-field your-name" placeholder="Full Name" required>
+          <br>
+           <br>
+        </div>
+        
+        <div class="col">
+          <input type="text" class="input-field phone-number" placeholder="Phone" requierd>
+           <br>
+            <br> 
+        </div>
+        <div class="col">
+          <input type="email" name="email" class="input-field email-adderss" placeholder="Email Address" required>
+           <br>
+            <br>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <textarea placeholder="Your Message" class="input-field textarea-field" name="message" rows="10" required></textarea>
+       <br>
+       <br>
+    </div>
+    <button type="submit" class="btn btn-lg btn-dark btn-block">Contact US</button>
+  </form>
+</section>
+  </body>
+</html>
